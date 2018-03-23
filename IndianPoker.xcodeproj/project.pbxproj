@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2937949A2064F3A3006D1B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293794992064F3A3006D1B45 /* AppDelegate.swift */; };
+		2937949C2064F3A3006D1B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2937949B2064F3A3006D1B45 /* ViewController.swift */; };
+		2937949F2064F3A3006D1B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2937949D2064F3A3006D1B45 /* Main.storyboard */; };
+		293794A12064F3A3006D1B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293794A02064F3A3006D1B45 /* Assets.xcassets */; };
+		293794A42064F3A3006D1B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */; };
+		29C3EC7E206513BF006D462E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EC7D206513BF006D462E /* GoogleService-Info.plist */; };
+		2AA1A5E61BCD8FDD3BFC871E /* Pods_IndianPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndianPoker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		110151FE1F00C59455F37C3B /* Pods-IndianPoker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndianPoker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker.debug.xcconfig"; sourceTree = "<group>"; };
+		293794962064F3A3006D1B45 /* IndianPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293794992064F3A3006D1B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2937949B2064F3A3006D1B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2937949E2064F3A3006D1B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293794A02064F3A3006D1B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293794A32064F3A3006D1B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293794A52064F3A3006D1B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C3EC7D206513BF006D462E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndianPoker.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293794932064F3A3006D1B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA1A5E61BCD8FDD3BFC871E /* Pods_IndianPoker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2937948D2064F3A3006D1B45 = {
+			isa = PBXGroup;
+			children = (
+				293794982064F3A3006D1B45 /* IndianPoker */,
+				293794972064F3A3006D1B45 /* Products */,
+				7D5BF71577C6019F20F5B20E /* Pods */,
+				2E2118616ED3185F0411DB71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		293794972064F3A3006D1B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293794962064F3A3006D1B45 /* IndianPoker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293794982064F3A3006D1B45 /* IndianPoker */ = {
+			isa = PBXGroup;
+			children = (
+				293794992064F3A3006D1B45 /* AppDelegate.swift */,
+				2937949B2064F3A3006D1B45 /* ViewController.swift */,
+				2937949D2064F3A3006D1B45 /* Main.storyboard */,
+				293794A02064F3A3006D1B45 /* Assets.xcassets */,
+				293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */,
+				293794A52064F3A3006D1B45 /* Info.plist */,
+				29C3EC7D206513BF006D462E /* GoogleService-Info.plist */,
+			);
+			path = IndianPoker;
+			sourceTree = "<group>";
+		};
+		2E2118616ED3185F0411DB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5BF71577C6019F20F5B20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				110151FE1F00C59455F37C3B /* Pods-IndianPoker.debug.xcconfig */,
+				95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293794952064F3A3006D1B45 /* IndianPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293794A82064F3A3006D1B45 /* Build configuration list for PBXNativeTarget "IndianPoker" */;
+			buildPhases = (
+				F56E52A53A542720B2D20B79 /* [CP] Check Pods Manifest.lock */,
+				293794922064F3A3006D1B45 /* Sources */,
+				293794932064F3A3006D1B45 /* Frameworks */,
+				293794942064F3A3006D1B45 /* Resources */,
+				9FA4F5F58B78479127B680DE /* [CP] Embed Pods Frameworks */,
+				BBC1C37D401CEB7282636D3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndianPoker;
+			productName = IndianPoker;
+			productReference = 293794962064F3A3006D1B45 /* IndianPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2937948E2064F3A3006D1B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SolChan Ahn";
+				TargetAttributes = {
+					293794952064F3A3006D1B45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 293794912064F3A3006D1B45 /* Build configuration list for PBXProject "IndianPoker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2937948D2064F3A3006D1B45;
+			productRefGroup = 293794972064F3A3006D1B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293794952064F3A3006D1B45 /* IndianPoker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293794942064F3A3006D1B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293794A42064F3A3006D1B45 /* LaunchScreen.storyboard in Resources */,
+				29C3EC7E206513BF006D462E /* GoogleService-Info.plist in Resources */,
+				293794A12064F3A3006D1B45 /* Assets.xcassets in Resources */,
+				2937949F2064F3A3006D1B45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FA4F5F58B78479127B680DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC1C37D401CEB7282636D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56E52A53A542720B2D20B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndianPoker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293794922064F3A3006D1B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2937949C2064F3A3006D1B45 /* ViewController.swift in Sources */,
+				2937949A2064F3A3006D1B45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2937949D2064F3A3006D1B45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2937949E2064F3A3006D1B45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293794A32064F3A3006D1B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293794A62064F3A3006D1B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293794A72064F3A3006D1B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293794A92064F3A3006D1B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110151FE1F00C59455F37C3B /* Pods-IndianPoker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perudot.IndianPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293794AA2064F3A3006D1B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perudot.IndianPoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293794912064F3A3006D1B45 /* Build configuration list for PBXProject "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293794A62064F3A3006D1B45 /* Debug */,
+				293794A72064F3A3006D1B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293794A82064F3A3006D1B45 /* Build configuration list for PBXNativeTarget "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293794A92064F3A3006D1B45 /* Debug */,
+				293794AA2064F3A3006D1B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2937948E2064F3A3006D1B45 /* Project object */;
+}
