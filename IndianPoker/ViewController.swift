@@ -10,9 +10,10 @@ import UIKit
 import Firebase
 
 var databaseReference: DatabaseReference!
+var cardDataController = CardDataController()
 
 class ViewController: UIViewController {
-    var cardDataController: CardDataController!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +23,10 @@ class ViewController: UIViewController {
         let testDB = databaseReference.child("test").child("1")
         testDB.observe(DataEventType.value) { (snapshot) in
             let value = snapshot.value as? String
-            
             print(value)
         }
         
-         card
+        cardDataController.shuffleCardList()
         
         
     }

@@ -12,7 +12,7 @@ class CardDataController {
     
     let cardList = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
     
-    func shuffleCardList(){
+    func shuffleCardList() -> [Int] {
         var tempList = cardList
         var resultList: [Int] = []
         
@@ -21,7 +21,8 @@ class CardDataController {
             resultList.append(tempList[index])
             tempList.remove(at: index)
         }
-        print(resultList)
+        return resultList
     }
+    
     
 }

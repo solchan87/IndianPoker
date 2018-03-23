@@ -14,6 +14,10 @@
 		293794A42064F3A3006D1B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */; };
 		29C3EC7E206513BF006D462E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EC7D206513BF006D462E /* GoogleService-Info.plist */; };
 		29C3EC80206530C5006D462E /* CardDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC7F206530C5006D462E /* CardDataController.swift */; };
+		29C3EC8320653CFE006D462E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC8220653CFE006D462E /* GameViewController.swift */; };
+		29C3EC8520653D12006D462E /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EC8420653D12006D462E /* Game.storyboard */; };
+		29C3EC8720656FBB006D462E /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC8620656FBB006D462E /* RoomViewCell.swift */; };
+		29C3EC892065833E006D462E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC882065833E006D462E /* CardViewController.swift */; };
 		2AA1A5E61BCD8FDD3BFC871E /* Pods_IndianPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +33,10 @@
 		293794A52064F3A3006D1B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C3EC7D206513BF006D462E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29C3EC7F206530C5006D462E /* CardDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataController.swift; sourceTree = "<group>"; };
+		29C3EC8220653CFE006D462E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		29C3EC8420653D12006D462E /* Game.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		29C3EC8620656FBB006D462E /* RoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCell.swift; sourceTree = "<group>"; };
+		29C3EC882065833E006D462E /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndianPoker.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +73,7 @@
 		293794982064F3A3006D1B45 /* IndianPoker */ = {
 			isa = PBXGroup;
 			children = (
+				29C3EC8120653C96006D462E /* GameData */,
 				293794992064F3A3006D1B45 /* AppDelegate.swift */,
 				2937949B2064F3A3006D1B45 /* ViewController.swift */,
 				2937949D2064F3A3006D1B45 /* Main.storyboard */,
@@ -75,6 +84,17 @@
 				29C3EC7F206530C5006D462E /* CardDataController.swift */,
 			);
 			path = IndianPoker;
+			sourceTree = "<group>";
+		};
+		29C3EC8120653C96006D462E /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				29C3EC8220653CFE006D462E /* GameViewController.swift */,
+				29C3EC8420653D12006D462E /* Game.storyboard */,
+				29C3EC8620656FBB006D462E /* RoomViewCell.swift */,
+				29C3EC882065833E006D462E /* CardViewController.swift */,
+			);
+			path = GameData;
 			sourceTree = "<group>";
 		};
 		2E2118616ED3185F0411DB71 /* Frameworks */ = {
@@ -159,6 +179,7 @@
 				293794A42064F3A3006D1B45 /* LaunchScreen.storyboard in Resources */,
 				29C3EC7E206513BF006D462E /* GoogleService-Info.plist in Resources */,
 				293794A12064F3A3006D1B45 /* Assets.xcassets in Resources */,
+				29C3EC8520653D12006D462E /* Game.storyboard in Resources */,
 				2937949F2064F3A3006D1B45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,9 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C3EC8320653CFE006D462E /* GameViewController.swift in Sources */,
 				2937949C2064F3A3006D1B45 /* ViewController.swift in Sources */,
+				29C3EC892065833E006D462E /* CardViewController.swift in Sources */,
 				2937949A2064F3A3006D1B45 /* AppDelegate.swift in Sources */,
 				29C3EC80206530C5006D462E /* CardDataController.swift in Sources */,
+				29C3EC8720656FBB006D462E /* RoomViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
