@@ -12,6 +12,7 @@ import Firebase
 var databaseReference: DatabaseReference!
 
 class ViewController: UIViewController {
+    var cardDataController: CardDataController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,10 @@ class ViewController: UIViewController {
             
             print(value)
         }
+        
+         card
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

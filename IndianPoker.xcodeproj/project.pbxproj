@@ -13,6 +13,7 @@
 		293794A12064F3A3006D1B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293794A02064F3A3006D1B45 /* Assets.xcassets */; };
 		293794A42064F3A3006D1B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */; };
 		29C3EC7E206513BF006D462E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C3EC7D206513BF006D462E /* GoogleService-Info.plist */; };
+		29C3EC80206530C5006D462E /* CardDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC7F206530C5006D462E /* CardDataController.swift */; };
 		2AA1A5E61BCD8FDD3BFC871E /* Pods_IndianPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		293794A32064F3A3006D1B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293794A52064F3A3006D1B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C3EC7D206513BF006D462E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29C3EC7F206530C5006D462E /* CardDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataController.swift; sourceTree = "<group>"; };
 		95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndianPoker.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */,
 				293794A52064F3A3006D1B45 /* Info.plist */,
 				29C3EC7D206513BF006D462E /* GoogleService-Info.plist */,
+				29C3EC7F206530C5006D462E /* CardDataController.swift */,
 			);
 			path = IndianPoker;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			files = (
 				2937949C2064F3A3006D1B45 /* ViewController.swift in Sources */,
 				2937949A2064F3A3006D1B45 /* AppDelegate.swift in Sources */,
+				29C3EC80206530C5006D462E /* CardDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
