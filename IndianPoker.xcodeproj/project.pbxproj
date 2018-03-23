@@ -19,6 +19,8 @@
 		29C3EC8720656FBB006D462E /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC8620656FBB006D462E /* RoomViewCell.swift */; };
 		29C3EC892065833E006D462E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3EC882065833E006D462E /* CardViewController.swift */; };
 		2AA1A5E61BCD8FDD3BFC871E /* Pods_IndianPoker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCC344605A74D2C13694FFC /* Pods_IndianPoker.framework */; };
+		986576C020652EEE00E1337F /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986576BF20652EEE00E1337F /* nextViewController.swift */; };
+		98687FF42065473C004FE63F /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98687FF32065473C004FE63F /* SignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		29C3EC8620656FBB006D462E /* RoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCell.swift; sourceTree = "<group>"; };
 		29C3EC882065833E006D462E /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		95A1DF3693EA79BEF87646EB /* Pods-IndianPoker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndianPoker.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker.release.xcconfig"; sourceTree = "<group>"; };
+		9801975C20657CF700E6D36C /* IndianPoker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IndianPoker.entitlements; sourceTree = "<group>"; };
+		986576BF20652EEE00E1337F /* nextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
+		98687FF32065473C004FE63F /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +78,16 @@
 		293794982064F3A3006D1B45 /* IndianPoker */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				29C3EC8120653C96006D462E /* GameData */,
+=======
+				9801975C20657CF700E6D36C /* IndianPoker.entitlements */,
+>>>>>>> f9261733c9476b4cde770c85acd8851d4e19fa2d
 				293794992064F3A3006D1B45 /* AppDelegate.swift */,
 				2937949B2064F3A3006D1B45 /* ViewController.swift */,
+				986576BF20652EEE00E1337F /* nextViewController.swift */,
 				2937949D2064F3A3006D1B45 /* Main.storyboard */,
+				98687FF32065473C004FE63F /* SignViewController.swift */,
 				293794A02064F3A3006D1B45 /* Assets.xcassets */,
 				293794A22064F3A3006D1B45 /* LaunchScreen.storyboard */,
 				293794A52064F3A3006D1B45 /* Info.plist */,
@@ -150,6 +161,11 @@
 					293794952064F3A3006D1B45 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -194,12 +210,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -215,9 +233,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IndianPoker/Pods-IndianPoker-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GINInviteResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GPPACLPickerResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -249,12 +274,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				29C3EC8320653CFE006D462E /* GameViewController.swift in Sources */,
+=======
+				986576C020652EEE00E1337F /* nextViewController.swift in Sources */,
+>>>>>>> f9261733c9476b4cde770c85acd8851d4e19fa2d
 				2937949C2064F3A3006D1B45 /* ViewController.swift in Sources */,
 				29C3EC892065833E006D462E /* CardViewController.swift in Sources */,
 				2937949A2064F3A3006D1B45 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				29C3EC80206530C5006D462E /* CardDataController.swift in Sources */,
 				29C3EC8720656FBB006D462E /* RoomViewCell.swift in Sources */,
+=======
+				98687FF42065473C004FE63F /* SignViewController.swift in Sources */,
+>>>>>>> f9261733c9476b4cde770c85acd8851d4e19fa2d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IndianPoker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perudot.IndianPoker;
@@ -408,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IndianPoker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perudot.IndianPoker;
