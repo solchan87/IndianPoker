@@ -130,7 +130,7 @@
         <!--Card View Controller-->
         <scene sceneID="Mbi-Xk-wim">
             <objects>
-                <viewController id="jYj-Lv-NZm" customClass="CardViewController" customModule="IndianPoker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardViewController" id="jYj-Lv-NZm" customClass="CardViewController" customModule="IndianPoker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jel-g4-Rl3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,6 +151,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5nr-PM-mRR"/>
                     </view>
+                    <connections>
+                        <outlet property="cardNumLb" destination="lDW-ZH-tX5" id="8VI-a0-1k5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WMK-zV-IXL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

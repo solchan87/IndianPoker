@@ -22,8 +22,9 @@ class RoomViewCell: UITableViewCell {
                 self.backgroundColor = UIColor.white
                 roomStatusLb.text = "1 / 2"
             }else{
-                self.backgroundColor = UIColor.lightGray
+                self.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
                 roomStatusLb.text = "2 / 2"
+                self.isUserInteractionEnabled = false
             }
         }
     }

@@ -90,9 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				29C3EC8220653CFE006D462E /* GameViewController.swift */,
-				29C3EC8420653D12006D462E /* Game.storyboard */,
 				29C3EC8620656FBB006D462E /* RoomViewCell.swift */,
 				29C3EC882065833E006D462E /* CardViewController.swift */,
+				29C3EC8420653D12006D462E /* Game.storyboard */,
 			);
 			path = GameData;
 			sourceTree = "<group>";

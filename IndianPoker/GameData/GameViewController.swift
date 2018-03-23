@@ -43,7 +43,7 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
 
         let addRoomAlert = UIAlertController(title: "Add New Room", message: "Enter New Room Name", preferredStyle: .alert)
         addRoomAlert.addTextField()
-        let addA = UIAlertAction(title: "ADD", style: .default) { (action: UIAlertAction) in
+        let addAction = UIAlertAction(title: "ADD", style: .default) { (action: UIAlertAction) in
             if let roomName = addRoomAlert.textFields?[0].text {
                 
                 let currentTimeMilliseconds = Date().timeIntervalSince1970
@@ -55,12 +55,22 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
                 roomItem["room-status"] = true
                 roomItem["room-player"] = self.tempPlayerName
                 roomItem["room-number"] = String(milliseconds)
+                roomItem["card-status"] = 0
+                roomItem["agree"] = 0
                 
                 roomdata.child(String(milliseconds)).setValue(roomItem)
+                
+                let cardPage: CardViewController = self.storyboard?.instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
+                cardPage.playerFlag = "host"
+                cardPage.roomNumber = String(milliseconds)
+                cardPage.playerName = self.tempPlayerName
+                
+                self.present(cardPage, animated: true)
+                
             }
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        addRoomAlert.addAction(addA)
+        addRoomAlert.addAction(addAction)
         addRoomAlert.addAction(cancelAction)
         self.show(addRoomAlert, sender: nil)
     }
@@ -107,7 +117,15 @@ class GameViewController: UIViewController, UITableViewDelegate, UITableViewData
 //    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedCell: RoomViewCell = tableView.cellForRow(at: indexPath) as! RoomViewCell
-        print(selectedCell.roomNumber)
+        
+        let cardPage: CardViewController = self.storyboard?.instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
+        cardPage.playerFlag = "guest"
+        cardPage.roomNumber = selectedCell.roomNumber
+        cardPage.playerName = self.tempPlayerName
+        
+        databaseReference.child("room-list").child(selectedCell.roomNumber).updateChildValues(["room-status": false])
+        
+        self.present(cardPage, animated: true)
     }
 
 }
